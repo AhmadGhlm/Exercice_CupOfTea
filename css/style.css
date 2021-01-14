@@ -1,0 +1,39 @@
+/* GLOBAL SETTINGS */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px;
+}
+
+/* HEADER (all pages) */
+
+header {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.livraison {
+  background-color: #879e0f;
+}
+
+.corner {
+  display: block;
+  float: right;
+  width: 90px;
+}
