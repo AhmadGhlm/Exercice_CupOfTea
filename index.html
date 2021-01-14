@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/403e98b532.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./flexslider/flexslider.css" type="text/css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="./flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.flexslider').flexslider();
+    });
+  </script>
     <title>Exercice - Cup Of Tea</title>
 </head>
 <body>
@@ -32,6 +40,16 @@
         <h1>C'est noël, profitez-en !</h1>
         <img src="./images/offre-noel.jpg" alt="offre-noel" class="offre">
         <p class="conditions">Pour toute commande éffectuée avant le 20 décembre</p>
+        <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="./images/slider/1.jpg" />
+              </li>
+              <li>
+                <img src="./images/slider/2.jpg" />
+              </li>
+            </ul>
+          </div>
     </main>
 </body>
 </html>
