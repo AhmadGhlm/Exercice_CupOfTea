@@ -23,6 +23,7 @@ h3 {
 /* HEADER (all pages) */
 
 header {
+  padding-bottom: 5%;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,10 +31,30 @@ header {
 
 .livraison {
   background-color: #879e0f;
+  padding: 0.5% 0 0.5% 3%;
+  color: #d4d4d4;
+  text-align: center;
+}
+
+.livraison p {
+  font-weight: lighter;
+  margin: 0;
 }
 
 .corner {
   display: block;
   float: right;
   width: 90px;
+}
+
+.caddie {
+  margin: 0 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
 }
