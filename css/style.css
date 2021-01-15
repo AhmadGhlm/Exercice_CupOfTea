@@ -20,19 +20,23 @@ h3 {
   font-size: 20px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 /* HEADER (all pages) */
 
 header {
-  padding-bottom: 5%;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-color: #96b011;
 }
 
 .livraison {
-  background-color: #879e0f;
-  padding: 0.5% 0 0.5% 3%;
-  color: #d4d4d4;
+  background-color: #869e0f;
+  padding: 0.5% 0 0.5% 7%;
+  color: #ececec;
   text-align: center;
 }
 
@@ -48,13 +52,48 @@ header {
 }
 
 .caddie {
-  margin: 0 15%;
+  margin: 0 18%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.caddie p a {
+  color: #ffffff;
+}
+
+.logo {
+  width: 70%;
+}
+
+header nav {
+  margin: 0 18%;
+  padding: 2% 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 header nav a {
-  text-decoration: none;
   text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* MAIN (all pages) */
+
+main {
+  margin: 0 18%;
+}
+
+main img {
+  width: 100%;
+}
+
+/* FOOTER (all pages) */
+
+footer {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
