@@ -59,8 +59,19 @@ header {
   justify-content: space-between;
 }
 
+.caddie p {
+  padding: 3% 0;
+}
+
 .caddie p a {
-  color: #ffffff;
+  color: #f2ffb1;
+}
+
+#caddie {
+  margin: 0 4px;
+  padding: 10px;
+  border: 1px solid #e7eca7;
+  border-radius: 50px;
 }
 
 .logo {
