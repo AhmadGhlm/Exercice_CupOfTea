@@ -228,7 +228,63 @@ main #list {
 }
 
 .source {
+  margin: 0;
+  text-align: center;
   width: 25%;
+}
+
+.tea h3 {
+  margin: 0;
+  text-align: center;
+}
+
+/* MAIN (About page) */
+
+.contain {
+  margin: 2% 18%;
+  padding: 2% 2%;
+  background-color: #ffffff;
+}
+
+.contact {
+  color: black;
+  text-align: left;
+}
+
+fieldset {
+  text-align: left;
+  border: none;
+  border-top: 1px solid #96b011;
+  color: #96b011;
+}
+
+.amelie img {
+  padding: 2%;
+  width: 50%;
+  float: left;
+}
+
+.xavier img {
+  padding: 2%;
+  width: 50%;
+  float: right;
+}
+
+.cadre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #e1f191;
+}
+
+.cadre img {
+  width: 10%;
+}
+
+.cadre span {
+  font-weight: bold;
 }
 
 /* FOOTER (all pages) */
