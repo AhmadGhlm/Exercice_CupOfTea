@@ -121,13 +121,71 @@ main img {
   width: 100%;
 }
 
-main .taste {
-  background-color: ;
+.gout {
+  padding: 3%;
+  background-color: #ffffff;
 }
 
-main .taste h2 {
+main .taste,
+#herbe {
+  margin: 3% 0;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  border-top: 1px solid #96b011;
+  text-align: center;
+}
+
+main .gout h2 {
+  padding: 0 4px;
   color: #96b011;
   text-align: center;
+}
+
+main .taste a {
+  font-family: "Amaranth", sans-serif;
+  width: 15%;
+  color: black;
+}
+
+.taste p {
+  margin: 0;
+}
+
+main article .saveur {
+  background-color: #ffffff;
+}
+
+#herbe h2 {
+  font-size: 18px;
+  color: #96b011;
+}
+
+#herbe article {
+  width: 25%;
+}
+
+#herbe p {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#herbe span {
+  font-weight: bold;
+}
+
+#herbe button {
+  background-color: #b09067;
+  border: none;
+  color: #d4d4d4;
 }
 
 /* FOOTER (all pages) */
