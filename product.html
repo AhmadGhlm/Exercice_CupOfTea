@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/403e98b532.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Exercice - Cup of Tea - Product</title>
 </head>
 <body>
@@ -26,24 +27,26 @@
             <a href="about.html">Notre histoire</a>
         </nav>
     </header>
-    <main>
+    <main class="contain2">
         <article class="blue">
             <h3>Blue of London</h3>
             <p>Thé noir à la bergamote</p>
             <p><i>Réf : 133742</i></p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
             <p><span>Voir les 56 avis clients</span></p>
             <img src="./images/product/product3_big.jpg" alt="product3">
-            <fieldset>
+            <fieldset class="noline">
                 <select name="choice" id="choice">
                     <option value="pochette">Pochette de 100g</option>
                 </select>
             </fieldset>
-            <p><span>9,00€</span></p>
+            <p><span class="price">9,00€</span></p>
             <a href="#"><button>Ajouter au panier</button></a>
             <p><i class="fas fa-heart"></i><span>Ajouter à ma liste d'envie</span></p>
             <p>Blue of London est un Earl Grey d'exeption qui associe un des meilleurs thés noirs au monde, le Yunnan, et une bergamote fraîche et délicate. Un mélange remarquable d'équilibre et definesse.</p>
