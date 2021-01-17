@@ -354,3 +354,17 @@ footer nav a {
   flex-direction: row;
   justify-content: space-around;
 }
+
+/* MOBILE Version */
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+
+  .caddie nav a {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
