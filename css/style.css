@@ -287,6 +287,33 @@ fieldset {
   font-weight: bold;
 }
 
+/* MAIN (Product page) */
+
+.contain2 {
+  margin: 2% 18%;
+  padding: 2% 2%;
+  background-color: #ffffff;
+}
+
+.contain2 img {
+  width: 40%;
+}
+
+.noline {
+  border: none;
+  border-top: none;
+}
+
+.price {
+  font-weight: bold;
+}
+
+button {
+  background-color: #b09067;
+  border: none;
+  color: #d4d4d4;
+}
+
 /* FOOTER (all pages) */
 
 footer {
