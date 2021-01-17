@@ -188,6 +188,49 @@ main article .saveur {
   color: #d4d4d4;
 }
 
+/* MAIN (Listing page) */
+
+main #list {
+  margin: 3% 0;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.tea fieldset {
+  margin: 0;
+  text-align: left;
+  border: none;
+  border-top: 1px solid #96b011;
+}
+
+.tea p {
+  margin: 0%;
+  text-align: left;
+}
+
+.tea h2 {
+  margin: 0;
+  color: #96b011;
+}
+
+.clear {
+  clear: both;
+  display: none;
+}
+
+.categorie {
+  width: 20%;
+  float: left;
+}
+
+.source {
+  width: 25%;
+}
+
 /* FOOTER (all pages) */
 
 footer {
