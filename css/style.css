@@ -392,14 +392,14 @@ footer nav a {
     flex-direction: column;
     align-items: center;
   }
-}
 
-/* About page */
+  /* About page */
 
-.botabout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .botabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* TABLETTE Version */
