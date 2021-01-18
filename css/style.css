@@ -107,7 +107,8 @@ main {
 
 /* MAIN (Home page) */
 
-main h1 {
+main h1,
+main h2 {
   text-align: center;
   color: #96b011;
 }
@@ -137,7 +138,7 @@ main .taste,
   text-align: center;
 }
 
-fieldset {
+.homeset h2 {
   border: none;
   border-top: 1px solid #96b011;
   text-align: center;
@@ -270,17 +271,20 @@ fieldset {
   float: right;
 }
 
-.cadre {
+.botabout {
+  margin: 2% 2%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
+  text-align: center;
   background-color: #e1f191;
 }
 
+.cadre {
+  padding: 2% 4%;
+}
+
 .cadre img {
-  width: 10%;
+  width: 90px;
 }
 
 .cadre span {
@@ -362,9 +366,49 @@ footer nav a {
     margin: 0;
   }
 
-  .caddie nav a {
+  header {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  /* Home page */
+
+  .corner,
+  .container h1,
+  .container .offre,
+  .container p,
+  .container .flexslider {
+    display: none;
+  }
+
+  article .gout,
+  nav .taste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* About page */
+
+.botabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TABLETTE Version */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
