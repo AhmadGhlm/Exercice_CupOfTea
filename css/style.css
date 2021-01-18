@@ -6,6 +6,11 @@ body {
   background-color: #fcf8f4;
 }
 
+.testflex {
+  display: flex;
+  flex-direction: row;
+}
+
 h1 {
   font-family: "Amaranth", sans-serif;
   font-size: 40px;
@@ -363,7 +368,7 @@ footer nav a {
 
 @media screen and (max-width: 480px) {
   body {
-    margin: 0;
+    width: 100%;
   }
 
   header {
@@ -405,6 +410,10 @@ footer nav a {
 /* TABLETTE Version */
 
 @media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
